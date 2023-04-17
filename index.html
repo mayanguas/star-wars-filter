@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <h1>Personajes de Star Wars</h1>
+    <section class="filters">
+      <input type="text" id="searchInput" placeholder="Search..." />
+      <button id="jediBtn">Jedi Order</button>
+      <button id="rebelBtn">Rebel Alliance</button>
+      <button id="empireBtn">Galactic Empire</button>
+      <button id="republicBtn">Galactic Republic</button>
+      <button id="allBtn">Show All</button>
+    </section>
+
+    <section class="filters2">
+      <button id="themeBtn">☀️</button>
+      <button id="women">Women</button>
+      <button id="shortPeople">Personajes hasta 100 cm</button>
+      <button id="mediumPeople">Personajes entre 100 y 180 cm</button>
+      <button id="tallPeople">Personajes mayores de 180 cm</button>
+      <input type="checkbox" name="check" id="check">
+      <label for="check">Droides</label>
+    </section>
+
+    <div id="app"></div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
